@@ -1,8 +1,8 @@
 /* Slide 16:9 - 3 */
 .wrap{
-    position: relative;
-    width: 1920px;
-    height: 1080px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 /* 
     background: #FFFFFF; */
 
@@ -15,7 +15,7 @@
 
     position: absolute;
     width: 300px;
-    height: 1080px;
+    height: 100%;
     left: 0px;
     top: 0px;
 
@@ -68,7 +68,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
 
 
 /* Sunji */
-.logo {
+.logo-txt {
     position: absolute;
     width: 109px;
     height: 44px;
@@ -87,7 +87,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
 
     
 }
-.logo.menu{
+.menu{
     box-sizing: border-box;
 
     position: absolute;
@@ -101,16 +101,17 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
 
 
 }
+span {
+	font-family : 'Noto Sans KR'
+}
 
-.logo.menu.name {
+.menu-name {
     position: absolute;
     width: 96px;
     height: 42px;
     left: 102px;
     top: 123px;
 
-    font-family: 'JetBrains Mono';
-    font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 42px;
@@ -120,15 +121,11 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
 }
 
 .logo-img{
-    
     position: absolute;
     width: 67px;
     height: 62px;
     left: 50px;
     top: 31px;
-
-    background: url('../../public/img/ai-generated-7700027_1280.png');
-
 
 }
 
@@ -251,3 +248,19 @@ border-radius: 25px; */
 }
 
 
+/* Rectangle 2 */
+
+
+.menu-txt{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 62px;
+    left: 300px;
+    top: 113px;
+
+    border: 1px solid #FAE4AD;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    
+}
