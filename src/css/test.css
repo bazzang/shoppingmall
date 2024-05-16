@@ -1,0 +1,253 @@
+/* Slide 16:9 - 3 */
+.body{
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+
+    background: #FFFFFF;
+
+}
+
+
+/* Rectangle 1 */
+.side-bar{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+
+    background: #CEB898;
+    border: 1px solid #FAE4AD;
+
+}
+
+
+/* Rectangle 5 */
+
+/* box-sizing: border-box;
+
+position: absolute;
+width: 300px;
+height: 62px;
+left: 300px;
+top: 443px;
+
+border: 1px solid #FAE4AD;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+ */
+
+/* Rectangle 3 */
+
+/* box-sizing: border-box;
+
+position: absolute;
+width: 300px;
+height: 62px;
+left: 300px;
+top: 223px;
+
+border: 1px solid #FAE4AD;
+transform: matrix(-1, 0, 0, 1, 0, 0); */
+
+
+/* Rectangle 4 */
+
+/* box-sizing: border-box;
+
+position: absolute;
+width: 300px;
+height: 62px;
+left: 300px;
+top: 333px;
+
+border: 1px solid #FAE4AD;
+transform: matrix(-1, 0, 0, 1, 0, 0); */
+
+
+/* Sunji */
+.logo {
+    position: absolute;
+    width: 109px;
+    height: 44px;
+    left: 125px;
+    top: 40px;
+
+    /* mainText */
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    
+}
+.logo.menu{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 62px;
+    left: 300px;
+    top: 113px;
+
+    border: 1px solid #FAE4AD;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+}
+
+.logo.menu.name {
+    position: absolute;
+    width: 96px;
+    height: 42px;
+    left: 102px;
+    top: 123px;
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+
+}
+
+.logo-img{
+    
+    position: absolute;
+    width: 67px;
+    height: 62px;
+    left: 50px;
+    top: 31px;
+
+    background: url(ai-generated-7700027_1280.png);
+
+
+}
+
+
+.product {
+    /* Rectangle 6 */
+
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    left: 426px;
+    top: 133px;
+
+    background: #F1F1F1;
+    /* product */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+
+}
+
+.product.product-name-price{
+    position: absolute;
+    width: 91px;
+    height: 26px;
+    left: 529px;
+    top: 417px;
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #000000;
+
+}
+
+.product-img{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    left: 426px;
+    top: 133px;
+
+    background: url(tshirt-7979854_640.jpg);
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+.ex-product{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    left: 426px;
+    top: 133px;
+
+    background: url(tshirt-7979854_640.jpg);
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+.ex-product.product-img{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    left: 1329px;
+    top: 133px;
+
+    background: #FFCDCD;
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+/* Rectangle 8  전체 사진 이미지 hover용으로 사용할 생각*/ 
+
+/* position: absolute;
+width: 350px;
+height: 400px;
+left: 874px;
+top: 133px;
+
+background: url(tshirt-7979854_640.jpg);
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px; */
+
+
+/* Rectangle 12 */
+.btn {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left: 1594px;
+    top: 23px;
+
+    background: #CEB898;
+    border-radius: 10px;
+
+
+}
+
+
+
+.btn-txt{
+    position: absolute;
+    width: 101px;
+    height: 23px;
+    left: 1606px;
+    top: 31px;
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+
