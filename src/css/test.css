@@ -1,5 +1,5 @@
 /* Slide 16:9 - 3 */
-.body{
+.wrap{
     position: relative;
     width: 1920px;
     height: 1080px;
@@ -127,7 +127,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
     left: 50px;
     top: 31px;
 
-    background: url(ai-generated-7700027_1280.png);
+    background: url('../../public/img/ai-generated-7700027_1280.png');
 
 
 }
@@ -173,7 +173,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
     left: 426px;
     top: 133px;
 
-    background: url(tshirt-7979854_640.jpg);
+    background: url('../../public/img/tshirt-7979854_640.jpg');
     border-radius: 25px 25px 0px 0px;
 
 }
@@ -185,7 +185,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
     left: 426px;
     top: 133px;
 
-    background: url(tshirt-7979854_640.jpg);
+    background: url('../../public/img/tshirt-7979854_640.jpg');
     border-radius: 25px 25px 0px 0px;
 
 }
