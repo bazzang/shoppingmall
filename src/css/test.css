@@ -90,14 +90,12 @@ transform: matrix(-1, 0, 0, 1, 0, 0); */
 .menu{
     box-sizing: border-box;
 
-    position: absolute;
     width: 300px;
     height: 62px;
     left: 300px;
     top: 113px;
 
     border: 1px solid #FAE4AD;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
 
 
 }
@@ -254,7 +252,6 @@ border-radius: 25px; */
 .menu-txt{
     box-sizing: border-box;
 
-    position: absolute;
     width: 300px;
     height: 62px;
     left: 300px;
@@ -263,4 +260,22 @@ border-radius: 25px; */
     border: 1px solid #FAE4AD;
     transform: matrix(-1, 0, 0, 1, 0, 0);
     
+}
+
+/* Rectangle 2 */
+.menu-txt-area{
+    box-sizing: border-box;
+
+    width: 300px;
+    height: 62px;
+    left: 300px;
+    top: 113px;
+
+    border: 1px solid #FAE4AD;
+
+}
+
+.logo-area{
+    width: 300px;
+    height: 130px;
 }

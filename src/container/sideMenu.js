@@ -17,21 +17,22 @@ export const SideMenu = () => {
     return (
         <div className='side-bar'>
             {/* <div className='logo-img'>{Logo}</div> */}
-            <img className='logo-img' src={Logo}></img>
-            <div className='logo-txt'>
-                Sunji
+            <div className='logo-area'>
+                <img className='logo-img' src={Logo}></img>
+                <div className='logo-txt'>
+                    Sunji
+                </div>
             </div>
-            {/* <ul className='menu'>
+            
             {
                 menuList.map(function(item){
                     return (
-                        <li>
-                            <div className='menu-txt'>{item.menu_nm}</div>
-                        </li>
+                            <div className='menu menu-txt-area'>
+                                <span>{item.menu_nm}</span>
+                            </div>
                     )
                 })
             }
-            </ul> */}
 
         </div>
     )
