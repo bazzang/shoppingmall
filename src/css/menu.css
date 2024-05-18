@@ -277,7 +277,6 @@ border-radius: 25px; */
 }
 span {
 	font-family: "JetBrains Mono";
-    src: url("./font/JetBrainsMono-VariableFont_wght.ttf") format("ttf");
     color: #FFFFFF;
     text-align: center;
     font-size: 24px;

@@ -1,0 +1,14 @@
+/* Rectangle 24 */
+.header-area{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 300px;
+    top: 0px;
+    border: 1px solid #39007a;
+    float: right;
+}
+
+.header-btn{
+    
+}

@@ -1,0 +1,12 @@
+/* main-content */
+
+
+.main-area {
+    position: absolute;
+    width: 100%;
+    /* height: fit-content; */
+    height: 500px;
+    left: 300px;
+    top: 70px;
+    border: 1px solid #007a51;
+}

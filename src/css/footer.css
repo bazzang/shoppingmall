@@ -1,0 +1,13 @@
+/* Rectangle 25 */
+
+
+
+.footer-area{
+    position: absolute;
+    width: 1920px;
+    height: 140px;
+    left: 0px;
+    bottom: 0px;
+
+    background: #F0B761;
+}
