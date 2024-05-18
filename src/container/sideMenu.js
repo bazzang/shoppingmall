@@ -3,15 +3,14 @@ import Logo from '../css/img/ai-generated-7700027_1280.png';
 
 export const SideMenu = () => {
 
-    const [menuList, setMenuList] = React.useState([]);
+    const [menuList, setMenuList] = React.useState([
+        {menu_nm : "Outer"},
+        {menu_nm : "Top"},
+        {menu_nm : "Pants"},
+        {menu_nm : "Skirt"},
+        {menu_nm : "etc"}
+    ]);
     React.useEffect(() =>{
-        setMenuList([
-            {menu_nm : "Outer"},
-            {menu_nm : "Top"},
-            {menu_nm : "Pants"},
-            {menu_nm : "Skirt"},
-            {menu_nm : "etc"}
-        ]);
 
     })
     return (
@@ -25,13 +24,11 @@ export const SideMenu = () => {
             </div>
             
             {
-                menuList.map(function(item){
-                    return (
-                            <div className='menu menu-txt-area'>
-                                <span>{item.menu_nm}</span>
-                            </div>
-                    )
-                })
+                menuList.map((item, index) => (
+                    <div className='menu menu-txt-area' key={index}>
+                        <span>{item.menu_nm}</span>
+                    </div>
+                ))
             }
 
         </div>

@@ -5,3 +5,6 @@
     src: url("./font/JetBrainsMono-VariableFont_wght.ttf") format("ttf");
   }
   
+  span {
+    font-family : 'JetBrains Mono'
+  }
