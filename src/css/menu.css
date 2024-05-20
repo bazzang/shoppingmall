@@ -206,19 +206,7 @@ border-radius: 25px; */
 
     background: #CEB898;
     border-radius: 10px;
-
-
-}
-
-
-
-.btn-txt{
-    position: absolute;
-    width: 101px;
-    height: 23px;
-    left: 1606px;
-    top: 31px;
-
+    
     font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: 400;
@@ -229,6 +217,9 @@ border-radius: 25px; */
     color: #FFFFFF;
 
 }
+
+
+
 
 
 /* Rectangle 2 */
