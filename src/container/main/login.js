@@ -18,15 +18,15 @@ export const Login = () => {
 
     const onClickLogin = () => {
         console.log('onClickLogin(Login)');
-        // try {
-        // // POST 요청은 body에 실어 보냄
-        //     axios.post('/user', {
-        //         id: userId,
-        //         pw: userPw
-        //     }).then(response => console.log('response', response));
-        // } catch (e) {
-        //     console.error(e);
-        // }
+        try {
+        // POST 요청은 body에 실어 보냄
+            axios.post('/login', {
+                id: userId,
+                pw: userPw
+            }).then(response => console.log('response', response));
+        } catch (e) {
+            console.error(e);
+        }
         
     }
 
