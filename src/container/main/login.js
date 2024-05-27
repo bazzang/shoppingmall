@@ -3,7 +3,7 @@ import React from 'react';
 import axios from 'axios';
 import swiper from 'swiper';
 
-export const Login = () => {
+export const Login = ({onClose}) => {
     const [form, setForm] = React.useState({
         id : "",
         pw : "" 
@@ -40,7 +40,7 @@ export const Login = () => {
 
     return (
         <div className='header-area'>
-            <div style={{width:"500px"}}>로그인, 회원가입 / 마이페이지, 로그아웃 버튼 들어갈 자리 </div>
+            
             <div className='btn' onClick={onClickLogin}>login</div>
             <label>아이디</label>
             <input type='text' onChange={onChangeId} />
@@ -48,6 +48,7 @@ export const Login = () => {
             <label>비밀번호</label>
             <input type='password' onChange={onChangePw} />
             
+            <button onClick={onClose}>닫기</button>
         </div>
     )
 }
