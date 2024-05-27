@@ -20,7 +20,7 @@ export const Login = () => {
         console.log('onClickLogin(Login)');
         try {
         // POST 요청은 body에 실어 보냄
-            axios.post('/login', {
+            axios.post('/user/login', {
                 id: userId,
                 pw: userPw
             }).then(response => console.log('response', response));
