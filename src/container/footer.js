@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/footer.css';
 
 export const Footer = () => {
 
@@ -8,9 +7,9 @@ export const Footer = () => {
 
     })
     return (
-        <div className='footer-area'>
-            <div>우리팀 정보, 쇼핑몰 정보 등 </div>
-            
-        </div>
+        // <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+        </footer>
     )
 }
