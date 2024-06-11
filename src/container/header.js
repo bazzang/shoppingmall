@@ -25,10 +25,21 @@ export const Header = () => {
 
     return (
         <div className='header-area'>
-            <Modal isOpen={isOpen} onClose={closeModal} className="overlay">
-                <Login className="modal-content"/>
+            <Modal 
+                isOpen={isOpen} 
+                onRequestClose={closeModal} 
+                style={{
+                    content: {
+                        width: '500px',
+                        height: '500px',
+                        margin: 'auto'
+                    }
+                }}
+            >
+                <Login onClose={closeModal}/>
             </Modal>
-            <div className='btn' onClick={onClickLogin}>login</div>
+
+            <div className='btn' onClick={openModal}>login</div>
         </div>
     )
 }

@@ -1,7 +1,5 @@
 import React from 'react';
-// import '../css/header.css';
 import axios from 'axios';
-import swiper from 'swiper';
 
 export const Login = ({onClose}) => {
     const [form, setForm] = React.useState({
@@ -16,19 +14,20 @@ export const Login = ({onClose}) => {
         
     })
 
-    const onClickLogin = () => {
+    const onClickLogin = async () => {
         console.log('onClickLogin(Login)');
         try {
-        // POST 요청은 body에 실어 보냄
-            axios.post('/user/login', {
+            // POST 요청은 body에 실어 보냄
+            const response = await axios.post('/user/login', {
                 id: userId,
                 pw: userPw
-            }).then(response => console.log('response', response));
+            });
+            console.log('response', response);
         } catch (e) {
             console.error(e);
         }
-        
     }
+    
 
     const onChangeId = (e) => {
         setUserId(e.target.value);
@@ -39,15 +38,13 @@ export const Login = ({onClose}) => {
     }
 
     return (
-        <div className='header-area'>
+        <div>
             
-            <div className='btn' onClick={onClickLogin}>login</div>
             <label>아이디</label>
             <input type='text' onChange={onChangeId} />
-            
             <label>비밀번호</label>
             <input type='password' onChange={onChangePw} />
-            
+            <button onClick={onClickLogin}>login</button>
             <button onClick={onClose}>닫기</button>
         </div>
     )

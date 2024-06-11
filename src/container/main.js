@@ -11,8 +11,6 @@ export const Main = () => {
     return (
         <div className='main-area'>
             상품 목록 페이지, 상품 상세 페이지, 문의 게시판 등 
-            
-            <Login />
         </div>
     )
 }
